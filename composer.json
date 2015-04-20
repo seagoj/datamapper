@@ -1,0 +1,17 @@
+{
+    "name": "seagoj/datamapper",
+    "description": "DataMapper implementation for PHP",
+    "license": "MIT",
+    "require": {
+    },
+    "require-dev": {
+        "phpspec/phpspec": "dev-master",
+        "seagoj/devtools": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "DataMapper\\": "./"
+        }
+    }
+}
